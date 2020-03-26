@@ -1,0 +1,6 @@
+*.egg-info
+build
+dist
+.eggs
+__pycache__
+test-out.md

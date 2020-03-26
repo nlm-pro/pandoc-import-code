@@ -1,0 +1,2 @@
+panflute==1.12.5
+comment_parser==1.1.6
