@@ -134,7 +134,7 @@ def action(elem, doc):
         else:
             raise ValueError(f'[code import] {raw_path} should begin with @/')
 
-        rawPathRegexp = r'^(.+(?:\.([a-z]+)))(?:#([\w-]+))?(?: ?({\d(?:[,-]\d)?}))?$'
+        rawPathRegexp = r'^(.+(?:\.([a-z]+)))(?:#([\w-]+))?(?: ?({\d+(?:[,-]\d+)?}))?$'
         search = re.search(rawPathRegexp, raw_path)
 
         if search is None:
