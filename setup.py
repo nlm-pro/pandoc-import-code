@@ -4,9 +4,10 @@
 from setuptools import setup
 from os import path
 
-version = '0.3.0'
-
 repo_base_dir = path.abspath(path.dirname(__file__))
+
+with open(path.join(repo_base_dir, 'VERSION')) as version_file:
+    version = version_file.read().strip()
 
 # Long description
 readme = path.join(repo_base_dir, 'README.md')
