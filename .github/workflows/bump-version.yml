@@ -1,0 +1,38 @@
+name: Bump version
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: actions/setup-python@v1
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: 'pip install -r requirements.txt'
+
+      - name: install pandoc
+        uses: r-lib/actions/setup-pandoc@v1
+
+      - name: local install
+        run: 'python setup.py install'
+
+      - name: Tests
+        run: 'bash scripts/test.sh'
+
+      - name: Build
+        run: 'bash scripts/build.sh'
+
+      - name: Bump version
+        run: 'bash scripts/bump-version.sh'
+        env:
+          TWINE_USERNAME: 'noelmace'
+          TWINE_PASSWORD: '${{ secrets.TWINE_PWD }}'
+          TWINE_NON_INTERACTIVE: true
