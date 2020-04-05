@@ -2,19 +2,19 @@
 
 ## JS file
 
-```js
+``` js
 function HelloWorld() {
   return "Hello World!";
 }
 ```
 
-```js
+``` js
 export default HelloWorld;
 ```
 
 ## Shell Session
 
-```shell-session
+``` shell-session
 $ git checkout master
 Switched to branch 'master'
 Your branch is up-to-date with 'origin/master'.
@@ -28,7 +28,7 @@ Bar
 
 ## HTML File
 
-```html
+``` html
 <div>
   Hello World!
 </div>
@@ -36,7 +36,7 @@ Bar
 
 ## PHP
 
-```php
+``` php
 function gen_one_to_three() {
     for ($i = 1; $i &lt;= 3; $i++) {
         // Note that $i is preserved between yields.

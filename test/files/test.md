@@ -2,18 +2,18 @@
 
 ## JS file
 
-<<< @/samples/hello-world.demo.js#snippet
+<<< @/test/samples/hello-world.demo.js#snippet
 
-<<< @/samples/hello-world.demo.js#export
+<<< @/test/samples/hello-world.demo.js#export
 
 ## Shell Session
 
-<<< @/samples/test.session.sh#snippet
+<<< @/test/samples/test.session.sh
 
 ## HTML File
 
-<<< @/samples/test.html#snippet
+<<< @/test/samples/test.html#snippet
 
 ## PHP
 
-<<< @/samples/test.php#snippet
+<<< @/test/samples/test.php#snippet
