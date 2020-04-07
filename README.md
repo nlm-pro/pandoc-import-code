@@ -3,6 +3,9 @@
 
 # Pandoc-import-code
 
+![PyPI](https://img.shields.io/pypi/v/pandoc-import-code)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/noelmace/pandoc-import-code?include_prereleases)
+
 Pandoc filter to include external code files as fenced code blocks using the
 [Vuepress syntax](https://vuepress.vuejs.org/guide/markdown.html#import-code-snippets).
 
