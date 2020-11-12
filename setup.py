@@ -24,7 +24,7 @@ setup(
     license='MIT',
     url='https://github.com/nlm-pro/pandoc-import-code',
 
-    install_requires=['panflute>=1', 'comment_parser>=1'],
+    install_requires=['panflute>=2,<3', 'comment_parser>=1,<2'],
     # Add to lib so that it can be included
     py_modules=['pandoc_import_code'],
     entry_points={

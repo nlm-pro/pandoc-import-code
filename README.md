@@ -21,6 +21,8 @@ Python 3.6+ and PyPy3 are supported.
 
 ## Usage
 
+**:warning: pandoc-import-code requires Pandoc 2.11+, as it relies on [Panflute 2](https://github.com/sergiocorreia/panflute/releases/tag/2.0.3)**
+
 ### Command
 
 ```shell-session
