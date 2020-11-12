@@ -1,6 +1,8 @@
-# Test
+Test
+====
 
-## JS file
+JS file
+-------
 
 ``` js
 function HelloWorld() {
@@ -12,7 +14,8 @@ function HelloWorld() {
 export default HelloWorld;
 ```
 
-## Shell Session
+Shell Session
+-------------
 
 ``` shell-session
 $ git checkout master
@@ -26,7 +29,8 @@ Foo
 Bar
 ```
 
-## HTML File
+HTML File
+---------
 
 ``` html
 <div>
@@ -34,7 +38,8 @@ Bar
 </div>
 ```
 
-## PHP
+PHP
+---
 
 ``` php
 function gen_one_to_three() {
